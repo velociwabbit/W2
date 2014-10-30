@@ -1,0 +1,295 @@
+﻿ .dtmgrid                                                 { font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height:  normal; position: relative; border: 0px solid #eee; overflow: hidden; color: #000; }
+.dtmgrid.hideBody                                         { height: 16px !important; border-bottom: 1px solid #ccc; }
+.ie6fullwidthbug                                          { border-right: 0px solid #ccc; padding-right: 2px; }
+.dtmgrid div.nDiv                                         { background: #eee url(images/line.gif) repeat-y -1px top; border: 1px solid #ccc; border-top: 0px; overflow: auto; left: 0px; position: absolute; z-index: 999; float: left; }
+.dtmgrid div.nDiv table                                   { margin: 2px; }
+.dtmgrid div.hDivBox                                      { float: left; padding-right: 40px; }
+.dtmgrid div.bDiv table                                   { margin-bottom: 10px; }
+.dtmgrid div.bDiv table.autoht                            { border-bottom: 0px; margin-bottom: 0px; }
+.dtmgrid div.nDiv td                                      { padding: 2px 3px; border: 1px solid #eee; cursor: default; }
+.dtmgrid div.nDiv tr:hover td                             { background: #d5effc url(images/hl.png) repeat-x top; border: 1px solid #a8d8eb; }
+.dtmgrid div.nDiv tr.ndcolover td                         { background: #d5effc url(images/hl.png) repeat-x top; border: 1px solid #a8d8eb; }
+.dtmgrid div.nDiv tr:hover td.ndcol2                      { border-left:  1px solid #eef8ff; }
+.dtmgrid div.nDiv td.ndcol2                               { border-left:  1px solid #fff; padding-right: 10px; }
+.dtmgrid div.nDiv tr.ndcolover td.ndcol2                  { border-left:  1px solid #eef8ff; }
+.dtmgrid div.nDiv tr:hover td.ndcol1                      { border-right: 1px solid #d2e3ec; }
+.dtmgrid div.nDiv tr.ndcolover td.ndcol1                  { border-right: 1px solid #d2e3ec; }
+.dtmgrid div.nDiv td.ndcol1                               { border-right: 1px solid #ccc; }
+.dtmgrid div.zDiv                                         { background: #eee url(images/line.gif) repeat-y -1px top; border: 1px solid #ccc; border-top: 0px; overflow: auto; left: 0px; position: absolute; z-index: 999; float: left; }
+.dtmgrid div.zDiv table                                   { margin: 2px; }
+.dtmgrid div.zDiv td                                      { padding: 2px 3px; border: 1px solid #eee; cursor: default; }
+.dtmgrid div.zDiv tr:hover td                             { background: #d5effc url(images/hl.png) repeat-x top; border: 1px solid #a8d8eb; }
+.dtmgrid div.zDiv tr.ndcolover td                         { background: #d5effc url(images/hl.png) repeat-x top; border: 1px solid #a8d8eb; }
+.dtmgrid div.zDiv tr:hover td.ndcolz                      { border-left:  1px solid #eef8ff; }
+.dtmgrid div.zDiv td.ndcolz                               { border-left:  1px solid #fff; padding-right: 10px; }
+.dtmgrid div.zDiv tr.ndcolover td.ndcolz                  { border-left:  1px solid #eef8ff; }
+.dtmgrid div.tDiv                                         { background: #fafafa url(images/bg.gif) repeat-x top; position: relative; border: 1px solid #ccc; border-bottom: 0px; overflow: hidden; }
+.dtmgrid div.tDiv2                                        { float: left; clear: both; padding: 1px; }
+.dtmgrid div.sDiv                                         { background: #fafafa url(images/bg.gif) repeat-x top; position: relative; border: 1px solid #ccc; border-top: 0px; overflow: hidden; display: none; }
+.dtmgrid div.sDiv2                                        { float: left; clear: both; padding: 1px; padding-left: 5px; width: 1024px; }
+.dtmgrid div.sDiv2 input                                  { vertical-align: middle; }
+.dtmgrid div.sDiv2 select                                 { vertical-align: middle; }
+.dtmgrid div.btnseparator                                 { float: left; height: 16px; border-left: 1px solid #ccc; border-right: 1px solid #fff; margin: 1px; }
+.dtmgrid div.fbutton                                      { float: left; display: block; cursor: pointer; padding: 1px; }
+.dtmgrid div.fbutton div                                  { float: left; padding: 1px 3px; }
+.dtmgrid div.fbutton span                                 { float: left; padding: 3px;  display: block;}
+.dtmgrid div.fbutton:hover                                { padding: 0px; border: 1px solid #ccc; }
+.dtmgrid div.fbutton.fbOver                               { padding: 0px; border: 1px solid #ccc; }
+.dtmgrid div.fbutton:hover div                            { padding: 0px 2px; border-left: 1px solid #fff; border-top: 1px solid #fff; border-right: 1px solid #eee; border-bottom: 1px solid #eee; }
+.dtmgrid div.fbutton.fbOver div                           { padding: 0px 2px; border-left: 1px solid #fff; border-top: 1px solid #fff; border-right: 1px solid #eee; border-bottom: 1px solid #eee; }
+.dtmgrid div.hDiv                                         { background: #fafafa url(images/fhbg.gif) repeat-x bottom; position: relative; border: 1px solid #ccc; border-bottom: 0px; overflow: hidden; }
+.dtmgrid div.hDiv table                                   { border-right: 1px solid #fff; }
+.dtmgrid div.cDrag                                        { float: left; position: absolute; z-index: 2; overflow: visible; }
+.dtmgrid div.cDrag div                                    { float: left; background: none; display: block; position: absolute; height: 24px; width: 8px; cursor: col-resize; }
+.dtmgrid div.cDrag div:hover                              { background: url(images/line.gif) repeat-y 4px center; }
+.dtmgrid div.cDrag div.dragging                           { background: url(images/line.gif) repeat-y 4px center; }
+.dtmgrid div.bDiv                                         { border: 1px solid #ccc; border-top: 0px; background: #fff; overflow: auto; position: relative; }
+.dtmgrid div.bDiv table                                   { border-bottom: 1px solid #ccc; }
+.dtmgrid div.hGrip                                        { position: absolute; top: 0px; right: 0px; height: 5px; width: 5px; background: url(images/line.gif) repeat-x center; margin-right: 1px; cursor: col-resize; }
+.dtmgrid div.hGrip:hover                                  { border-right: 1px solid #999; margin-right: 0px; }
+.dtmgrid div.hGrip.hgOver                                 { border-right: 1px solid #999; margin-right: 0px; }
+.dtmgrid div.vGrip                                        { height: 5px; overflow: hidden; position: relative; background: #fafafa url(images/wbg.gif) repeat-x 0px -1px; border: 1px solid #ccc; border-top: 0px; text-align: center; cursor: row-resize; }
+.dtmgrid div.vGrip span                                   { display: block; margin: 1px auto; width: 20px; height: 1px; overflow: hidden; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; background: none; }
+.dtmgrid div.hDiv th                                      { text-align: left; border-right: 1px solid #ddd; border-left: 1px solid #fff; overflow: hidden; vertical-align: top !important; padding-left: 0; padding-right: 0; }
+.dtmgrid  div.bDiv td                                     { text-align: left; border-right: 1px solid #ddd; border-left: 1px solid #fff; overflow: hidden; vertical-align: top !important; padding-left: 0; padding-right: 0; }
+.dtmgrid div.hDiv th div                                  { padding: 1px; border-left: 0px solid #fff; }
+.dtmgrid  div.bDiv td  div                                { padding: 1px; border-left: 0px solid #fff; }
+ div.colCopy div                                          { padding: 1px; border-left: 0px solid #fff; }
+.dtmgrid div.hDiv th                                      { font-weight: normal; height: 14px; cursor: default; white-space: nowrap; overflow: hidden; }
+ div.colCopy                                              { font-weight: normal; height: 14px; cursor: default; white-space: nowrap; overflow: hidden; }
+ div.colCopy                                              { font-family: Arial, Helvetica, sans-serif; font-size: 11px; background: #fafafa url(images/fhbg.gif) repeat-x bottom; border: 1px solid #ccc; border-bottom: 0px; overflow: hidden; }
+.dtmgrid div.hDiv th.sorted                               { background: url(images/wbg.gif) repeat-x 0px -1px; border-bottom: 0px solid #ccc; }
+.dtmgrid div.hDiv th.thOver div                           { }
+.dtmgrid div.hDiv th.sorted.thOver div                    { }
+.dtmgrid div.hDiv th.sorted div                           { border-bottom: 0px solid #ccc; padding-bottom: 5px; }
+.dtmgrid div.hDiv th.thMove                               { background: #fff; color: #fff; }
+.dtmgrid div.hDiv th.sorted.thMove div                    { border-bottom: 1px solid #fff; padding-bottom: 4px }
+.dtmgrid div.hDiv th.thMove div                           { background: #fff !important; }
+.dtmgrid div.hDiv th div.sdesc                            { background: url(images/dn.png) no-repeat center top; }
+.dtmgrid div.hDiv th div.sasc                             { background: url(images/up.png) no-repeat center top; }
+.dtmgrid div.bDiv td                                      { border-bottom: 1px solid #fff; vertical-align: top; white-space: nowrap; }
+.dtmgrid div.hDiv th div                                  { }
+.dtmgrid span.cdropleft                                   { display: block; background: url(images/prev.gif) no-repeat -4px center; width: 24px; height: 24px; position: relative; top: -24px; margin-bottom: -24px; z-index: 3; }
+.dtmgrid div.hDiv span.cdropright                         { display: block; background: url(images/next.gif) no-repeat 12px center; width: 24px; height: 24px; float: right; position: relative; top: -24px; margin-bottom: -24px; }
+.dtmgrid div.bDiv td div                                  { border-top: 0px solid #fff; padding-bottom: 4px; }
+.dtmgrid tr td.sorted                                     { background: #f3f3f3; border-right: 1px solid #ddd; border-bottom: 1px solid #f3f3f3; }
+.dtmgrid tr td.sorted div                                 { }
+.dtmgrid tr.erow td                                       { background: #f7f7f7; border-bottom: 1px solid #f7f7f7; }
+.dtmgrid tr.erow td.sorted                                { background: #e3e3e3; border-bottom: 1px solid #e3e3e3; }
+.dtmgrid tr.erow td.sorted div                            { }
+.dtmgrid div.bDiv tr:hover td                             { background: #d9ebf5; border-left: 1px solid #eef8ff; border-bottom: 1px dotted #a8d8eb; }
+.dtmgrid div.bDiv tr:hover td.sorted                      { background: #d9ebf5; border-left: 1px solid #eef8ff; border-bottom: 1px dotted #a8d8eb; }
+.dtmgrid div.bDiv tr.trOver td.sorted                     { background: #d9ebf5; border-left: 1px solid #eef8ff; border-bottom: 1px dotted #a8d8eb; }
+.dtmgrid div.bDiv tr.trOver td                            { background: #d9ebf5; border-left: 1px solid #eef8ff; border-bottom: 1px dotted #a8d8eb; }
+.dtmgrid div.bDiv tr.trSelected:hover td                  { background: #d5effc url(images/hl.png) repeat-x top; border-right: 1px solid #d2e3ec; border-left: 1px solid #eef8ff; border-bottom: 1px solid #a8d8eb; }
+.dtmgrid div.bDiv tr.trSelected:hover td.sorted           { background: #d5effc url(images/hl.png) repeat-x top; border-right: 1px solid #d2e3ec; border-left: 1px solid #eef8ff; border-bottom: 1px solid #a8d8eb; }
+.dtmgrid div.bDiv tr.trOver.trSelected td.sorted          { background: #d5effc url(images/hl.png) repeat-x top; border-right: 1px solid #d2e3ec; border-left: 1px solid #eef8ff; border-bottom: 1px solid #a8d8eb; }
+.dtmgrid div.bDiv tr.trOver.trSelected td                 { background: #d5effc url(images/hl.png) repeat-x top; border-right: 1px solid #d2e3ec; border-left: 1px solid #eef8ff; border-bottom: 1px solid #a8d8eb; }
+.dtmgrid tr.trSelected td.sorted                          { background: #d5effc url(images/hl.png) repeat-x top; border-right: 1px solid #d2e3ec; border-left: 1px solid #eef8ff; border-bottom: 1px solid #a8d8eb; }
+.dtmgrid tr.trSelected td                                 { background: #d5effc url(images/hl.png) repeat-x top; border-right: 1px solid #d2e3ec; border-left: 1px solid #eef8ff; border-bottom: 1px solid #a8d8eb; }
+.dtmgrid.novstripe .bDiv table                            { border-bottom: 1px solid #ccc;    border-right: 1px solid #ccc; }/* novstripe adjustments */
+.dtmgrid.novstripe  div.bDiv td                           { border-right-color: #fff;    }
+.dtmgrid.novstripe div.bDiv tr.erow td.sorted             { border-right-color: #e3e3e3; }
+.dtmgrid.novstripe div.bDiv tr td.sorted                  { border-right-color: #f3f3f3; }
+.dtmgrid.novstripe  div.bDiv tr.erow td                   { border-right-color: #f7f7f7;        border-left-color  : #f7f7f7; }
+.dtmgrid.novstripe div.bDiv tr.trSelected:hover td        { border-right: 1px solid #0066FF;    border-left: 1px solid #0066FF; }
+.dtmgrid.novstripe div.bDiv tr.trSelected:hover td.sorted { border-right: 1px solid #0066FF;    border-left: 1px solid #0066FF; }
+.dtmgrid.novstripe div.bDiv tr.trOver.trSelected td.sorted{ border-right: 1px solid #0066FF;    border-left: 1px solid #0066FF; }
+.dtmgrid.novstripe div.bDiv tr.trOver.trSelected td       { border-right: 1px solid #0066FF;    border-left: 1px solid #0066FF; }
+.dtmgrid.novstripe tr.trSelected td.sorted                { border-right: 1px solid #0066FF;    border-left: 1px solid #0066FF; }
+.dtmgrid.novstripe tr.trSelected td                       { border-right: 1px solid #0066FF;    border-left: 1px solid #0066FF; }
+.dtmgrid.novstripe div.bDiv tr.trOver td                  { border-left-color: #d9ebf5;    border-right-color: #d9ebf5; } 
+.dtmgrid.novstripe div.bDiv tr:hover td                   { border-left-color: #d9ebf5;    border-right-color: #d9ebf5; } 
+.dtmgrid div.pDiv                                         { background: url(images/wbg.gif) repeat-x 0 -1px;    border: 1px solid #ccc;    border-top: 0px;    overflow: hidden;    white-space: nowrap;    position: relative; }
+.dtmgrid div.pDiv div.pDiv2                               { margin: 1px;    margin-left: -2px;    float: left;    width: 1024px; }
+ div.pGroup                                               { float: left;    background: none;    height: 16px;    margin: 0px 5px; }
+.dtmgrid div.pDiv .scontrol                               { position: relative;    top: 2px;    overflow: visible; }
+.dtmgrid div.pDiv .pPageStat						      { position: relative;    top: 2px;    overflow: visible; }
+.dtmgrid div.pDiv .pcontrol                               { position: relative;    top: 2px;    overflow: visible; }
+.dtmgrid div.pDiv input                                   { vertical-align: text-top;    position: relative;    top: -5px;    margin: 3px; }
+.dtmgrid div.pDiv select                                  { margin: 3px; }
+.dtmgrid div.pDiv  div.pButton                            { width: 22px; height: 16px;  border: 0px; float: left;  cursor: pointer;     overflow: hidden; }
+.dtmgrid div.pDiv  div.pButton:hover                      { width: 20px; height: 14px;  border: 1px solid #ccc;    cursor: pointer; }
+.dtmgrid div.pDiv  div.pButton.pBtnOver                   { width: 20px; height: 14px;  border: 1px solid #ccc;    cursor: pointer; }
+.dtmgrid div.pDiv  div.pButton span                       { width: 20px; height: 14px;  display: block;    float: left; }
+.dtmgrid div.pDiv  div.pButton:hover span                 { width: 19px; height: 15px;  border-top: 1px solid #fff;    border-left: 1px solid #fff; }
+.dtmgrid div.pDiv  div.pButton.pBtnOver span              { width: 19px; height: 15px;  border-top: 1px solid #fff;    border-left: 1px solid #fff; }
+.dtmgrid .pSearch                                         { background: url(images/magnifier.png) no-repeat center; }
+.dtmgrid .pSearch2                                        { background: url(images/dialogmag.png) no-repeat center; }
+.dtmgrid .pSearchd                                        { background: url(images/clearsrch.png) no-repeat center; }
+.dtmgrid .nBtn											  { background: url(images/ddn.png) no-repeat center;  z-index: 900;  height: 16px; width: 12px; cursor: pointer;  border: 0px solid #ccc; border-left: 1px solid #ccc; }
+.dtmgrid .nBtn div										  { background: url(images/ddn.png) no-repeat center;  z-index: 900;  height: 16px; width: 12px; border-left: 1px solid #fff; }
+.dtmgrid .nBtn.srtd										  { background: url(images/wbg.gif) repeat-x 0px -1px; }
+.dtmgrid div.fbutton .add                                 { background: url(images/add.png)    no-repeat center left;}
+.dtmgrid div.fbutton .delete                              { background: url(images/close.png)  no-repeat center left;}
+.dtmgrid div.fbutton .edit                                { background: url(images/edit.png)   no-repeat center left;}
+.dtmgrid .pFirst                                          { background: url(images/first.gif) no-repeat center; }
+.dtmgrid .pPrev                                           { background: url(images/prev.gif) no-repeat center;  }
+.dtmgrid .pNext                                           { background: url(images/next.gif) no-repeat center;  }
+.dtmgrid .pLast                                           { background: url(images/last.gif) no-repeat center;  }
+.dtmgrid .pReload                                         { background: url(images/load.png) no-repeat center;  }
+.dtmgrid .pReload.loading                                 { background: url(images/load.gif) no-repeat center;  }
+.dtmgrid.ie div.hDiv th div                               { overflow: hidden;  }  
+.dtmgrid.ie  div.bDiv td  div                             { overflow: hidden;  }  
+ div.colCopy.ie div                                         { overflow: hidden;  }  
+.ready .gs-w:not(.preview-holder)                           {-webkit-transition: opacity .3s, left .3s, top .3s;                           -moz-transition: opacity .3s, left .3s, top .3s;                           transition: opacity .3s, left .3s, top .3s;}
+.ready .gs-w:not(.preview-holder)                           {-webkit-transition: opacity .3s, left .3s, top .3s, width .3s, height .3s;    -moz-transition: opacity .3s, left .3s, top .3s, width .3s, height .3s;    transition: opacity .3s, left .3s, top .3s, width .3s, height .3s;}
+.ready .resize-preview-holder                               {-webkit-transition: opacity .3s, left .3s, top .3s, width .3s, height .3s;    -moz-transition: opacity .3s, left .3s, top .3s, width .3s, height .3s;    transition: opacity .3s, left .3s, top .3s, width .3s, height .3s;}
+.gs-resize-handle                                           { z-index: 1; position: absolute;}
+.gs-resize-handle-both                                      { width: 20px;    height: 20px;    bottom: -8px;    right: -8px;    background-position: top left;    background-repeat: no-repeat;    cursor: se-resize;    z-index: 20;}
+.gs-resize-handle-x                                         { top: 0;     right: -5px;    bottom: 13px;   width: 10px;    cursor: e-resize;}
+.gs-resize-handle-y                                         { left: 0;    right: 13px;    bottom: -5px;   height: 10px;   cursor: s-resize;}  
+.gs-w:hover .gs-resize-handle                               { opacity: 1; }
+.resizing .gs-resize-handle                                 { opacity: 1; }
+.gs-resize-handle                                           { opacity: 0; }
+.gs-w.dragging .gs-resize-handle                            { opacity: 0; }
+.gs-resize-disabled .gs-resize-handle                       { display: none!important;  }
+ [data-max-sizex="1"] .gs-resize-handle-x                   { display: none !important; }
+ [data-max-sizey="1"] .gs-resize-handle-y                   { display: none !important; }
+ [data-max-sizey="1"][data-max-sizex="1"] .gs-resize-handle { display: none !important; }
+.ui-dialog .ui-dialog-titlebar                              { padding: 0;position: relative; border:0;     }
+ 
+.ui-widget                                                  { font-size: .5em;                             }
+.ui-dialog .ui-dialog-content                               { padding: 0; margin:0;                        }
+.ui-widget-header                                           {  background-image: none; background : none;   border: 0;  }
+ .search													{    font-size: 12px;							 }
+.field0-div													{    font-size: 10px;  display :inline block; }
+.field1-div													{    font-size: 10px;  display :inline block; }
+.field2-div													{    font-size: 10px;  display :inline block; }
+.field3-div													{    font-size: 10px;  display :inline block; }
+.field4-div													{    font-size: 10px;  display :inline block; }
+.field5-div													{    font-size: 10px;  display :inline block; }
+.field0-span												{    font-size: 10px;  display :inline block; }
+.field1-span												{    font-size: 10px;  display :inline block; }
+.field2-span												{    font-size: 10px;  display :inline block; }
+.field3-span												{    font-size: 10px;  display :inline block; }
+.field4-span												{    font-size: 10px;  display :inline block; }
+.field5-span												{    font-size: 10px;  display :inline block; }
+.itemlabel													{cursor:pointer;}
+ input[type="color"]                                        { padding:0; border:0;        }
+#wrapper	{ 	  }
+#main		{margin-right:10em;	position:relative;	 min-height:0}
+.accord	{margin:0; padding:0 ; position:relative;	 }
+.accord li {list-style-type:none}
+.accord li.last-child {margin-left:19px; list-style-type:disc}
+.accord .outer {border:1px solid #dadada; border-width:0 1px 1px; background: #fff;  height:100%; width:100%;}
+.accord .inner {margin-bottom:0; padding:.25em 20px .25em; position:relative; overflow:hidden}
+.accord .inner .inner .inner .inner .inner,.accord .inner .inner .inner .inner,.accord .inner .inner .inner, .accord .inner .inner {padding-bottom:0}
+.accord .h				{padding-top:.3em}  
+.accord	 li				{list-style-type:none}
+.accord	 li.last-child	{margin-left:19px; list-style-type:disc}
+.last-child a.trigger			{ background-image:none; padding-left:1px; font-weight:normal} 
+ 			a.trigger			{ background-image: url(../images/add.png);	 width :18px; height:18px;	 padding-left:20px;	cursor:pointer;  background-repeat: no-repeat; }
+ 			a.trigger.open		{ background-image: url(../images/close.png) ; width:18px; height:18px;	  cursor:pointer;  background-repeat: no-repeat; }
+ a.trigger			{ background-image:none; padding-left:1px; font-weight:normal} 
+ a.trigger			{ background-image: url(../images/add.png);	  width :18px; height:18px;	 padding-left:20px;	cursor:pointer;  background-repeat: no-repeat; }
+ a.trigger.open		{ background-image: url(../images/close.png) ; width:18px; height:18px;	  cursor:pointer;  background-repeat: no-repeat; }
+ a.trigger			{ } 
+ a.trigger.open		{border-color:#dadada; }
+ a:hover.trigger.open,  a:focus.trigger.open,  a:active.trigger.open {border-color:#bcd}
+ .unused {	visibility:hidden; display:none; } 
+.accsub				{ display: inline-block;  width: 100%;  left: 0px;   position:absolute;  padding:0; margin:0;	width: 800px; }
+.headerer			{ display: block; width: 830px; top:0px; position : relative;  left :0px; height : 150px; border: 1px solid;  color:  Red;			font-size :  12px; font-family: Arial, Helvetica, sans-serif; 	 	-moz-border-radius: 3px;    -webkit-border-radius: 3px;    -khtml-border-radius: 3px;    border-radius: 3px; 	 }
+.nrmlsect			{ display: block; width: 830px; top:0px; position : relative;  left: 0px;  height : 400px; border: 1px solid;  color:  Green;		font-size :  12px; font-family: Arial, Helvetica, sans-serif; 	 	-moz-border-radius: 3px;    -webkit-border-radius: 3px;    -khtml-border-radius: 3px;    border-radius: 3px;  }
+.footerer			{ display: block; width: 830px; top:0px; position : relative;  left: 0px;  height : 150px; border: 1px groove;  color:  Blue;		font-size :  12px; font-family: Arial, Helvetica, sans-serif; 	 	-moz-border-radius: 3px;    -webkit-border-radius: 3px;    -khtml-border-radius: 3px;    border-radius: 3px;    }
+.pppheaderer		{ display: block; width: 830px; top:0px; position : relative;  left :0px;  height : 150px; border: 0; margin:0; padding: 0;}
+.pppnrmlsect		{ display: block; width: 830px; top:0px; position : relative;  left: 0px;  height : 400px; border: 0; margin:0; padding: 0;}
+.pppfooterer		{ display: block; width: 830px; top:0px; position : relative;  left: 0px;  height : 150px; border: 0; margin:0; padding: 0;}
+.usrsub				{ position:relative; }	
+.bitalbutton        {-webkit-appearance: button; display: inline-block;  overflow: hidden;  white-space: nowrap;  position: relative;  height:18px;   text-decoration: none;        }
+.colorbutton        {-webkit-appearance: button; display: inline-block; overflow: hidden;  white-space: nowrap;  position: relative;  height:18px;   text-decoration: none;    width: 22px;    }
+#subdiv             { display : inline-block;   }
+#subdiv2            { display : inline-block;   }
+#subacc             { display : inline-block;   }
+.subacc, .accsub	{ display : inline-block;  position:absolute; width:100%; height:100%; }
+.toolbarcolor       { border: 0;                                                  }
+.homeim             { width:1660px; height:942px;  z-index :10;                   }
+.imgovr             { width:1660px; height:942px;  z-index: 100;                  }
+.homepg             { position:absolute; margin: 0;    padding: 0;    border: 0;  }
+.whydtm             { position:absolute; clip:rect(107px,518px,167px,330px);      }  
+.getstr             { position:absolute; clip:rect(107px,701px,167px,519px);      }  
+.aboutu             { position:absolute; clip:rect(107px,865px,167px,702px);      }
+.produc             { position:absolute; clip:rect(107px,1017px,167px,865px);     }
+.faques             { position:absolute; clip:rect(107px,1143px,167px,1017px);    }
+.contac             { position:absolute; clip:rect(107px,1332px,167px,1144px);    }
+.userid             { position:absolute; clip:rect(230px,1300px,270px,1100px);    }
+.passwd             { position:absolute; clip:rect(284px,1300px,325px,1100px);    }
+.clickh             { position:absolute; clip:rect(573px,1264px,606px,1147px);    }
+.freetr             { position:absolute; clip:rect(884px,575px,915px,460px);      }  
+.viewdm             { position:absolute; clip:rect(886px,444px,915px,329px);      }
+.submit             { position:absolute; clip:rect(340px,1190px,374px,1102px);    }
+.signup             { position:absolute; clip:rect(340px,1288px,374px,1200px);    }
+.forgot             { position:absolute; clip:rect(495px,1253px,409px,1102px);    } 
+ textarea:focus     { outline : 0; }
+ input:focus        { outline : 0; }
+.userid-input       { position:absolute; display: block;  top:  11px; left:  11px; font-size:1.1em;   }
+.passwd-input       { position:absolute; display: block;  top:  11px; left:  11px; font-size:1.1em;   }
+.user_d-input       { position:absolute; display: block;  top:  11px; left:   0px; font-size:1.1em;   }
+.pass_d-input       { position:absolute; display: block;  top:  11px; left:   0px; font-size:1.1em;   }
+.loginplus          { position:absolute; display: block;  top:   0px; left:   0px; width:241px; height:167px;    } 
+.userid-div         { position:absolute; display: block;  top: 230px; left:1100px; width:200px; height: 40px; padding:0; margin:0;  z-index: 11;  }
+.passwd-div         { position:absolute; display: block;  top: 284px; left:1100px; width:200px; height: 40px; padding:0; margin:0;  z-index: 11;  }
+/* //swb */
+.user_d-input       { position:absolute; display: block;  top:  11px; left:   0px; font-size:1.1em;   }
+.pass_d-input       { position:absolute; display: block;  top:  11px; left:   0px; font-size:1.1em;   }
+.loginplus          { position:absolute; display: block;  top:   0px; left:   0px; width:241px; height:167px;    }  
+.userid-div         { position:absolute; display: block;  top: 232px; left:1100px; width:200px; height: 40px; padding:0; margin:0;  z-index: 11; }
+.passwd-div         { position:absolute; display: block;  top: 286px; left:1100px; width:200px; height: 40px; padding:0; margin:0;  z-index: 11;  }
+.user_d-div         { position:absolute; display: block;  top:  60px; left:  20px; width:200px; height: 40px; padding:0; margin:0;  }
+.pass_d-div         { position:absolute; display: block;  top: 114px; left:  20px; width:200px; height: 40px; padding:0; margin:0;  }
+.loginplusdiv       { position:absolute; display: block;  top:   0px; left:   0px; width:242px; height:173px; padding:0; margin:0;  overflow:hidden; } 
+/* //swb */
+.firstn-div         { position:absolute; display: block;  top: 158px; left: 152px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.lastnm-div         { position:absolute; display: block;  top: 218px; left: 152px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.usernm-div         { position:absolute; display: block;  top: 268px; left: 152px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.email_-div         { position:absolute; display: block;  top: 318px; left: 152px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.gender-div         { position:absolute; display: block;  top: 218px; left: 612px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.pas_wd-div         { position:absolute; display: block;  top: 369px; left: 152px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.passbk-div         { position:absolute; display: block;  top: 418px; left: 152px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.birthd-div         { position:absolute; display: block;  top: 158px; left: 610px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.phone1-div         { position:absolute; display: block;  top: 268px; left: 610px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.addres-div         { position:absolute; display: block;  top: 318px; left: 610px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.pquest-div         { position:absolute; display: block;  top: 369px; left: 610px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }    
+.panswr-div         { position:absolute; display: block;  top: 418px; left: 610px; width:198px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }                                                                                                        
+.admine-div         { position:absolute; display: block;  top: 495px; left: 366px; width:300px; height: 38px; padding:0; margin:0;  overflow: hidden; z-index: 11; border:1px solid black }                                                                                                        
+.Reset-div          { position:absolute; display: block;  top: 603px; left: 441px; width: 88px; height: 30px; padding:0; margin:0;  overflow: hidden; z-index: 11;  }
+.Submit-div         { position:absolute; display: block;  top: 603px; left: 344px; width: 88px; height: 30px; padding:0; margin:0;  overflow: hidden; z-index: 11;  }
+.firstn-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+.lastnm-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+.usernm-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+.email_-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+.gender-input       { position:absolute; display: block;  top:   1px; left:   0px; }
+.pas_wd-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+.passbk-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+.birthd-input       { position:absolute; display: block;  top:   1px; left:   0px; }
+.phone1-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+.addres-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+.pquest-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+.panswr-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+.admine-input       { position:absolute; display: block;  top:   1px; left:   1px; }
+/* //swb */         { position:absolute; display: block;  top:   1px; left:   1px; }
+.mailfrom-div		{  -webkit-gradient(linear, left bottom, left top, color-stop(0, #ccc), color-stop(0.6, #eee)); }
+.mailfrom-div		{ position:absolute; display: block;  top:  10px; left:  0px;  width:100px; height: 20px;  padding:0; margin:0; }
+.email_to-div		{ position:absolute; display: block;  top:  40px; left:  0px;  width:400px; height: 20px;  padding:0; margin:0; }
+.mailsubj-div		{ position:absolute; display: block;  top:  70px; left:  0px;  width:400px; height: 20px;  padding:0; margin:0; }
+.emailbod-div		{ position:relative; display: block;  top:  100px; left: 10px; width:400px; height: 400px; padding:0; margin:0; }
+-mailsend-div		{ position:absolute; display: block;  top:  500px; left: 10px; width:400px; height: 38px;  padding:0; margin:0; }
+.mailfrom-but		{ position:absolute; display: block;  left:  10px;  padding:0; margin:0;   }
+.email_to-but		{ position:absolute; display: block;  left : 10px;  padding:0; margin:0;   }
+.mailsubj-but		{ position:absolute; display: block;  left:  10px;  padding:0; margin:0;   }
+.mailfrom-text		{ position:absolute; display: block;  left:  60px;  padding:0; margin:0;   }
+.email_to-text		{ position:absolute; display: block;  left : 60px;  padding:0; margin:0;   }
+.mailsubj-text		{ position:absolute; display: block;  left:  60px;  padding:0; margin:0;   }
+.usrabs				{ position:absolute; display: block;  }	
+#regpage            { background:url(images/DTMReg.png ) no-repeat;               display: block; background-position: left 0px top 0px; cursor: pointer;     }
+#dvLoading          { background:url(images/loader.gif ) no-repeat center center; display:block;  background-size:100% 100%; position:absolute;top:30px;left:500px;width:48px;height:48px;z-index:1000; }
+.wtbold             { font-weight:bold;          }
+.wtnorm             { font-weight:normal;        }
+.stital             { font-style:italic;         }
+.stnorm             { font-style:italic;         }
+.textun             { text-decoration:underline; }
+.textno             { text-decoration:normal;    }
+.Fcnorm             { color :inherit;            } 
+.Fonorm             { font-family :inherit;      }
+.siznrm             { font-size:100%; }
+.ui-widget-content{ border: 0;}

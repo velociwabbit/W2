@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Welcome to Drug Testing Management System</title>
+<script	type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"		></script>
+<script	type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.js"	></script>
+<link	type="text/css"		  href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"  rel="stylesheet" />
+<!--[if IE]>
+<script	  src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link	type="text/css"		  href="w2.css"  rel="stylesheet" />
+<script	type="text/javascript" src="w2.js"	></script>
+</head>
+<body  onload=  "$.sys._init();  ">
+ <script type="text/javascript">
+	$('<div	 id="dvLoading"   > </div>'  ).appendTo("body" ).hide() ;
+	$('<div	 id="floatbar2"   > </div>'  ).appendTo("body" );
+	$('<div	 id="homepg_" class=" homepg fout "><img src="images/DTMM.png" class="homeim "  /></div> '  ).appendTo("body" );
+	$(	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="whydtm  imgovr fout " />' +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="getstr  imgovr fout " />'
+	 +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="aboutu  imgovr fout " />' +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="produc  imgovr fout " />'
+	 +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="faques  imgovr fout " />' +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="contac  imgovr fout " />'
+	 +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="clickh  imgovr fout " />' +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="freetr  imgovr fout " />'
+	 +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="viewdm  imgovr fout " />' +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="submit  imgovr fout " />'
+	 +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="signup  imgovr fout " />' +	'<img data-alt-src="images/DTMH.png" src="images/DTMM.png" class="forgot  imgovr fout " /><form id="loginDTM">'
+	 +	'<div id="userid-div" class="userid-div fout " ><input type="text"	   id="userid-input" class="userid-input  fout " size="14"	name="username"  /></div>'
+	 +	'<div id="passwd-div" class="passwd-div fout " ><input type="password" id="passwd-input" class="passwd-input  fout  " size="14"	name="password"	 /></div></form>' ).appendTo("#floatbar2" );
+  $(function(){      var flip = function () {		var	$this = $(this), flipto = $this.data('alt-src'); $this.data('alt-src', $this.attr('src'));	$this.attr('src',flipto );			};
+					 $('img.imgovr').hover(flip, flip).on({ click: function() { var	$this =		$(this)[0] || this;
+ 						switch($this.classList[0]){
+ 	 								case 	'whydtm'  :																	return;
+ 	 								case 	'getstr'  :		alert(  'getstr ' + $this.classList[0]);					return;
+ 	 								case 	'aboutu'  :		alert(  'aboutu ' + $this.classList[0]);					return;
+ 	 								case 	'produc'  :		alert(  'produc ' + $this.classList[0]);					return;
+ 	 								case 	'faques'  :		alert(  'faques ' + $this.classList[0]);					return;
+ 	 								case 	'contac'  :		alert(  'contac ' + $this.classList[0]);					return;
+ 	 								case 	'userid'  :		$(".userid-div").css({"z-index": 111});						return;
+ 	 								case 	'passwd'  :		$(".passwd-div").css({"z-index": 111});						return;
+ 	 								case 	'clickh'  :																	return;
+ 	 								case 	'freetr'  :		$.sys._RegisterUser();										return;
+ 	 								case 	'viewdm'  :		$( "#tabs"		).css('z-index',99).dialog( "open" );		return;
+ 	 								case 	'submit'  :		$.sys._login();												return;
+ 	 								case 	'signup'  :		$.sys._RegisterUser();	 									return;
+ 	 								case 	'forgot'  :	    $( "#floatbar" ).css('z-index',111).dialog( "open" );	    return;
+									}}});
+});
+    </script>
+    </body></html>
